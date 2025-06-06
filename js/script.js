@@ -49,7 +49,7 @@ const observer = new IntersectionObserver((entries) => {
     });
 }, observerOptions);
 
-document.querySelectorAll('.feature-card').forEach(card => {
+document.querySelectorAll('.feature-card, .project-card').forEach(card => {
     observer.observe(card);
 });
 
