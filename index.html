@@ -14,6 +14,11 @@
     <header class="header">
         <nav class="nav">
             <div class="logo">Mi Portafolio</div>
+            <div class="menu-toggle" aria-label="Abrir menú">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
             <ul class="nav-links">
                 <li><a href="#home">Inicio</a></li>
                 <li><a href="#about">Sobre mí</a></li>
@@ -75,7 +80,12 @@
 
         <section id="contact" class="contact">
             <h2>Contacto</h2>
-            <p>Puedes escribirme a <a href="mailto:alex@example.com">alex@example.com</a></p>
+            <form class="contact-form">
+                <input type="text" id="name" name="name" placeholder="Tu Nombre" required>
+                <input type="email" id="email" name="email" placeholder="Tu Email" required>
+                <textarea id="message" name="message" placeholder="Tu Mensaje" required></textarea>
+                <button type="submit">Enviar</button>
+            </form>
         </section>
     </main>
 
