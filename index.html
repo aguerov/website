@@ -3,100 +3,25 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Portafolio personal de Alex Agüero Villarroel con proyectos destacados y contacto.">
-    <title>Portafolio Personal</title>
-    <link rel="stylesheet" href="styles/styles.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&amp;display=swap" rel="stylesheet">
+    <title>Portal Aduanero</title>
+    <!-- Tailwind CSS via CDN para un dise\xC3\xB1o simple y responsivo -->
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="aduana_enlaces/style.css">
 </head>
-<body>
-    <header class="header">
-        <nav class="nav">
-            <div class="logo">Mi Portafolio</div>
-            <button class="menu-toggle" aria-label="Abrir menú" aria-expanded="false" aria-controls="nav-links">
-                <span></span>
-                <span></span>
-                <span></span>
-            </button>
-            <ul id="nav-links" class="nav-links">
-                <li><a href="#home">Inicio</a></li>
-                <li><a href="#about">Sobre mí</a></li>
-                <li><a href="#projects">Proyectos</a></li>
-                <li><a href="#contact">Contacto</a></li>
-                <li><a href="aduana.html">Aduana</a></li>
-            </ul>
+<body class="bg-gray-100 font-sans text-gray-900">
+    <header class="bg-white shadow">
+        <nav class="container mx-auto flex items-center justify-between px-4 py-4">
+            <h1 class="text-xl font-semibold text-blue-900">Aduana Chile</h1>
+            <input id="search" type="text" placeholder="Buscar enlace" aria-label="Buscar enlaces" class="border rounded px-2 py-1 w-full max-w-xs" />
         </nav>
     </header>
 
-    <main>
-        <section id="home" class="hero">
-            <div class="hero-content">
-                <h1>Hola, soy Alex Agüero Villarroel</h1>
-                <p>Desarrollador web enfocado en crear experiencias modernas y fluidas.</p>
-                <a href="#projects" class="cta-button">Ver proyectos</a>
-            </div>
-        </section>
-
-        <section class="features">
-            <div class="feature-card">
-                <h3>Diseño Responsive</h3>
-                <p>Interfaces que lucen geniales en cualquier dispositivo.</p>
-            </div>
-            <div class="feature-card">
-                <h3>Animaciones de vanguardia</h3>
-                <p>Efectos modernos que mejoran la experiencia de usuario.</p>
-            </div>
-            <div class="feature-card">
-                <h3>Escalabilidad profesional</h3>
-                <p>Soluciones preparadas para crecer junto a tu negocio.</p>
-            </div>
-        </section>
-
-        <section id="about" class="about">
-            <h2>Sobre mí</h2>
-            <p>Soy Alex Agüero Villarroel, desarrollador web con experiencia en proyectos de alto impacto y rendimiento. Disfruto creando aplicaciones interactivas y optimizadas para cualquier plataforma.</p>
-        </section>
-
-        <section id="projects" class="projects">
-            <h2>Proyectos Destacados</h2>
-            <div class="project-grid">
-                <div class="project-card">
-                    <div class="project-image"></div>
-                    <h3>Proyecto 1</h3>
-                    <p>Descripción breve del proyecto uno.</p>
-                </div>
-                <div class="project-card">
-                    <div class="project-image"></div>
-                    <h3>Proyecto 2</h3>
-                    <p>Descripción breve del proyecto dos.</p>
-                </div>
-                <div class="project-card">
-                    <div class="project-image"></div>
-                    <h3>Proyecto 3</h3>
-                    <p>Descripción breve del proyecto tres.</p>
-                </div>
-            </div>
-        </section>
-
-        <section id="contact" class="contact">
-            <h2>Contacto</h2>
-            <form class="contact-form">
-                <label for="name">Nombre</label>
-                <input type="text" id="name" name="name" placeholder="Tu Nombre" required>
-                <label for="email">Email</label>
-                <input type="email" id="email" name="email" placeholder="Tu Email" required>
-                <label for="message">Mensaje</label>
-                <textarea id="message" name="message" placeholder="Tu Mensaje" required></textarea>
-                <button type="submit">Enviar</button>
-            </form>
-        </section>
+    <main class="container mx-auto p-4">
+        <div id="link-groups" class="space-y-8">
+            <!-- El contenido se inserta mediante JavaScript -->
+        </div>
     </main>
 
-    <footer class="footer">
-        <p>&copy; 2025 Todos los derechos reservados</p>
-    </footer>
-
-    <script src="js/script.js"></script>
+    <script src="aduana_enlaces/script.js"></script>
 </body>
 </html>
