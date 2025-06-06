@@ -4,7 +4,9 @@
 let linksData = [];
 
 // Obtener los datos y renderizar al inicio
-fetch('scraper_aduana.json')
+// La ruta se ajusta para que funcione cuando la página se sirva desde la raíz
+// del sitio, manteniendo los datos en la carpeta "aduana_enlaces".
+fetch('aduana_enlaces/scraper_aduana.json')
     .then(resp => resp.json())
     .then(data => {
         linksData = data;
