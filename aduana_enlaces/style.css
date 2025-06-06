@@ -1,0 +1,24 @@
+/*
+ * Estilos adicionales para complementar Tailwind
+ * y mantener la identidad visual de Aduana Chile.
+ */
+
+:root {
+    /* Colores institucionales */
+    --blue: #003366;        /* Azul marino */
+    --light-gray: #f4f5f7;  /* Gris claro */
+}
+
+body {
+    background-color: var(--light-gray);
+}
+
+h1, h2 {
+    font-family: 'Helvetica Neue', Arial, sans-serif; /* Tipografía estándar */
+    color: var(--blue);
+}
+
+/* Ajustes para resaltar los resultados de búsqueda */
+mark {
+    background-color: #fff176; /* amarillo suave */
+}
