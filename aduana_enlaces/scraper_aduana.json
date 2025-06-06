@@ -1,0 +1,38 @@
+[
+    {
+        "title": "Franquicia de Viajeros",
+        "url": "https://www.aduana.cl/franquicia-del-viajero/aduana/2006-02-21/112939.html",
+        "description": "Información sobre franquicias para personas que ingresan al país",
+        "category": "Franquicias"
+    },
+    {
+        "title": "Trámites y Servicios en Línea",
+        "url": "https://www.aduana.cl/tramites-y-servicios-en-linea/aduana/2006-02-21/112939.html",
+        "description": "Portal de trámites digitales relacionados con Aduana",
+        "category": "Trámites"
+    },
+    {
+        "title": "Consultas de Valoración",
+        "url": "https://www.aduana.cl/consultas-de-valoracion/aduana/2009-04-09/135236.html",
+        "description": "Sistema para consultas de valoración de mercancías",
+        "category": "Consultas"
+    },
+    {
+        "title": "Normativa Aduanera Vigente",
+        "url": "https://www.aduana.cl/normativa-vigente/aduana/2006-02-21/112940.html",
+        "description": "Listado actualizado de normativas y leyes aplicables",
+        "category": "Normativas"
+    },
+    {
+        "title": "Estadísticas de Comercio Exterior",
+        "url": "https://www.aduana.cl/estadisticas-de-comercio-exterior/aduana/2009-04-09/135235.html",
+        "description": "Datos y reportes de comercio exterior chileno",
+        "category": "Comercio Exterior"
+    },
+    {
+        "title": "Portal de Denuncias",
+        "url": "https://www.aduana.cl/portal-de-denuncias/aduana/2013-07-25/115713.html",
+        "description": "Herramienta en línea para realizar denuncias a la Aduana",
+        "category": "Consultas"
+    }
+]

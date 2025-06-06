@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enlaces Aduana Chile</title>
+    <!-- Tailwind CSS via CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="bg-gray-100 font-sans text-gray-900">
+    <!-- Navegación principal -->
+    <header class="bg-white shadow">
+        <nav class="container mx-auto flex items-center justify-between px-4 py-4">
+            <h1 class="text-xl font-semibold text-blue-900">Aduana Chile</h1>
+            <!-- Buscador accesible -->
+            <input id="search" type="text" placeholder="Buscar enlace" aria-label="Buscar enlaces" class="border rounded px-2 py-1 w-full max-w-xs" />
+        </nav>
+    </header>
+
+    <main class="container mx-auto p-4">
+        <!-- Contenedor para los enlaces agrupados -->
+        <div id="link-groups" class="space-y-8">
+            <!-- El contenido se insertará dinámicamente con JavaScript -->
+        </div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
